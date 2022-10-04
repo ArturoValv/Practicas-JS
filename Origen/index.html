@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuento por Origen de Viaje</title>
+</head>
+<body>
+    <form action="/" method="POST" id="formDescuento">
+        <legend>Descuentos en viajes</legend>
+        <label for="origen">Ingresa tu ciudad de origen</label>
+        <select name="origen" id="origen">
+            <option value="">--Selecciona una ciudad--</option>
+            <option value="palma">Palma</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="madrid">Madrid</option>
+            <option value="valencia">Valencia</option>
+        </select>
+        <label for="destino">Ingresa tu ciudad de destino</label>
+        <select name="destino" id="destino">
+            <option value="">--Selecciona una ciudad--</option>
+            <option value="palma">Palma</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="madrid">Madrid</option>
+            <option value="valencia">Valencia</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>
